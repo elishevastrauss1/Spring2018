@@ -11,10 +11,10 @@ def choices():
 
 def initilize():
     global array
-    array=[""]
+    array=("")
 
 def add(inp):
-    array.append(inp)
+    array+=inp
 
 def delete(inp):
     array.remove(inp)
