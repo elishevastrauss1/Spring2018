@@ -1,3 +1,4 @@
+#didn't use this in the end
 def choices():
     choice=input("""Choose
         1-Make a list
@@ -11,10 +12,10 @@ def choices():
 
 def initilize():
     global array
-    array=("")
+    array=[""]
 
 def add(inp):
-    array+=inp
+    array.add(inp)
 
 def delete(inp):
     array.remove(inp)
